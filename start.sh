@@ -1,4 +1,4 @@
-cd ran_pridget/
+cd ran_pridget
 export PORT=5000
 unset PIP_USER
 
