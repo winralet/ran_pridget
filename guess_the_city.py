@@ -70,7 +70,7 @@ def handle_dialog(req, res):
             ]
     else:
         city = get_city(req)
-        if city is cities:
+        if city in cities:
             res['response']['card'] = {}
             res['response']['card']['type'] = 'BigImage'
             res['response']['card']['title'] = 'Этот город я знаю.'
